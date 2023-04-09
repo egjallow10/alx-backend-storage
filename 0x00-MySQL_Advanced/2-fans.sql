@@ -4,7 +4,7 @@
 
 SELECT 
   origin, 
-  COUNT(*) AS nb_bands, 
+  SUM(fans) AS nb_fans 
 FROM 
   metal_bands
 GROUP BY 
