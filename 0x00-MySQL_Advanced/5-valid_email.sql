@@ -7,5 +7,5 @@ FOR EACH ROWS
 BEGIN
     IF NEW.email != OLD.email THEN
     SET New.validate_email = 0;
-END IF
+END IF;
 
