@@ -1,0 +1,3 @@
+//Create or use bd in mongo
+use my_db
+
