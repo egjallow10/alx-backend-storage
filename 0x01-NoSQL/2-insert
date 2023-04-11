@@ -1,3 +1,3 @@
-//Insert in to 
-db.my_db.insert( { name: "Holberton school" } )
+//Insert in to school collection 
+db.school.insert( { name: "Holberton school" } )
 
